@@ -22,6 +22,10 @@
 ```bash
 go get github.com/GohperBridge/service-tools
 ```
+github访问不畅的用户可使用我们的国内仓库，代码保持一致
+```bash
+go get gitee.com/GohperBridge/service-tools
+```
 ## 使用
 | 分类 | 包 | 描述 | 文档 |
 | --- | --- | --- | --- |
@@ -30,3 +34,6 @@ go get github.com/GohperBridge/service-tools
 # 关注进度
 1. 给项目点个Start
 2. 关注[无别小站](https://wubie.quanmwl.com)
+
+# 为什么包名没有使用仓库地址规范？
+因为Go语言的包管理机制，使用仓库地址作为包名会使项目不便于迁移和同步。我们提供了国内gitee加速仓库，如果使用仓库地址将会产生歧义和额外工作，且不便于后续更换组织或捐赠。
